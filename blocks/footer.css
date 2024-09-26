@@ -1,12 +1,13 @@
 .footer {
+  display: flex;
   max-width: 80%;
   margin: 0 auto;
 }
 
 .footer__copyright {
   display: flex;
-  margin: 40px 19px 36px;
-  font-family: "Manrope", "Arial", sans-serif;
+  margin: 40px 0px;
+  font-family: "Inter", "Arial", sans-serif;
   font-style: normal;
   font-size: 14px;
   font-style: normal;
