@@ -1,15 +1,26 @@
 .nav {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
   width: 100%;
   min-height: 84px;
   border-bottom: 1px solid #545454;
 }
 
 .nav__logo {
-  margin: 0 27px;
+  margin: 0;
   padding-top: 34px;
   max-width: 126px;
   max-height: 24px;
+}
+
+.nav__link {
+  margin: 0;
+  padding-top: 34px;
+  max-width: 126px;
+  max-height: 24px;
+  text-decoration: none;
+  color: black;
 }
 
 @media screen and (min-width: 768px) {
