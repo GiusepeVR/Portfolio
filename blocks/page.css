@@ -10,6 +10,31 @@ html {
   line-height: 20px;
 }
 
+.hero {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.grid {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8%;
+}
+
+.caption {
+  width: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  column-gap: 24px;
+  line-height: 48px;
+}
+
+.figma {
+  width: 100%;
+}
+
 @media screen and (min-width: 768px) {
   .page {
     max-width: 800px;
